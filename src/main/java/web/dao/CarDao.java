@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 @Component
 public class CarDao {
-    List<Car> carList;
+    private List<Car> carList;
     {
         carList = new ArrayList<>();
         carList.add(new Car("BMW", 5, 2020));
